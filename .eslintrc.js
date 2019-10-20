@@ -59,13 +59,7 @@ module.exports = {
     // (Note these rules are overridden later for source files.)
     'no-var': ERROR,
     strict: ERROR,
-
-    // Enforced by Prettier
-    // TODO: Prettier doesn't handle long strings or long comments. Not a big
-    // deal. But I turned it off because loading the plugin causes some obscure
-    // syntax error and it didn't seem worth investigating.
-    'max-len': OFF,
-
+    
     // React & JSX
     // Our transforms set this automatically
     'react/jsx-boolean-value': [ERROR, 'always'],
