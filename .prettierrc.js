@@ -6,7 +6,7 @@ module.exports = {
   bracketSpacing: false,
   singleQuote: true,
   jsxBracketSameLine: true,
-  trailingComma: 'es5',
+  trailingComma: true,
   printWidth: 80,
   parser: 'babylon',
 
